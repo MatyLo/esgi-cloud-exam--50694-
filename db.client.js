@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  process.env.esgi_cloud_exam_50694_DB,
+  process.env.DATABASE_URL,
   {
     dialect: 'postgres',
     dialectOptions: {
